@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <itemx
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="خانه" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="لیست دسته بندی محصولات" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="سبد خرید" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="پیشنهاد ویژه دیجی کالا" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_seller"
+                android:icon="@drawable/ic_menu_share"
+                android:title="پر فروش ترین ها" />
+            <item
+                android:id="@+id/nav_most"
+                android:icon="@drawable/ic_menu_send"
+                android:title="پر بازدیدترین ها" />
+            <item
+                android:id="@+id/nav_new_product"
+                android:icon="@drawable/ic_menu_send"
+                android:title="جدیدترین ها" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_send"
+                android:title="تنظیمات" />
+
+            <item
+                android:id="@+id/nav_question"
+                android:icon="@drawable/ic_menu_send"
+                android:title="سوالاتا متدوال" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="درباره ما" />
+        </menu>
+    </item>
+
+</menu>
